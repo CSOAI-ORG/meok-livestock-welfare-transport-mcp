@@ -1,0 +1,32 @@
+name: meok-livestock-welfare-transport-mcp
+description: 'UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-livestock-welfare-transport-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_journey_log_long_journey
+  description: check journey log long journey
+- name: check_transporter_authorisation
+  description: check transporter authorisation
+- name: check_driver_competence_certificate
+  description: check driver competence certificate
+- name: check_vehicle_approval_livestock
+  description: check vehicle approval livestock
+- name: check_loading_density_species
+  description: check loading density species
+- name: check_rest_water_feed_journey
+  description: check rest water feed journey
+- name: prepare_apha_inspection_pack
+  description: prepare apha inspection pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

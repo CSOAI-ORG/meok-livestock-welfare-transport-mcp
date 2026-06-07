@@ -1,0 +1,34 @@
+{
+  "name": "meok-livestock-welfare-transport-mcp",
+  "title": "Meok Livestock Welfare Transport Mcp",
+  "description": "UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey logs, Type 1 vs Type 2 transporter authorisation, driver Certificate of Competence, species-specific vehicle approval + loading density, rest/water/feed cadence, APHA roadside inspection pack with Brexit divergence. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_journey_log_long_journey"
+    },
+    {
+      "name": "check_transporter_authorisation"
+    },
+    {
+      "name": "check_driver_competence_certificate"
+    },
+    {
+      "name": "check_vehicle_approval_livestock"
+    },
+    {
+      "name": "check_loading_density_species"
+    },
+    {
+      "name": "check_rest_water_feed_journey"
+    },
+    {
+      "name": "prepare_apha_inspection_pack"
+    }
+  ]
+}

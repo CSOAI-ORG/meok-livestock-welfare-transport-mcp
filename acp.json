@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-livestock-welfare-transport-mcp",
+    "description": "UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-livestock-welfare-transport-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_journey_log_long_journey",
+      "check_transporter_authorisation",
+      "check_driver_competence_certificate",
+      "check_vehicle_approval_livestock",
+      "check_loading_density_species",
+      "check_rest_water_feed_journey",
+      "prepare_apha_inspection_pack"
+    ]
+  }
+}

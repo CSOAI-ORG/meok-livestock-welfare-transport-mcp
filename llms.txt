@@ -1,0 +1,23 @@
+# meok-livestock-welfare-transport-mcp
+
+> UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey logs, Type 1 vs Type 2 transporter authorisation, driver Certificate of Competence, species-specific vehicle approval + loading density, rest/water/feed cadence, APHA roadside inspection pack with Brexit divergence. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_journey_log_long_journey
+- check_transporter_authorisation
+- check_driver_competence_certificate
+- check_vehicle_approval_livestock
+- check_loading_density_species
+- check_rest_water_feed_journey
+- prepare_apha_inspection_pack
+
+## Install
+```
+pip install meok-livestock-welfare-transport-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-livestock-welfare-transport-mcp/
+- Docs: https://meok.ai

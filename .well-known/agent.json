@@ -1,0 +1,86 @@
+{
+  "name": "meok-livestock-welfare-transport-mcp",
+  "description": "UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey",
+  "url": "https://proofof.ai/scorecard/meok-livestock-welfare-transport-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_journey_log_long_journey",
+      "name": "Check Journey Log Long Journey",
+      "description": "check_journey_log_long_journey via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_transporter_authorisation",
+      "name": "Check Transporter Authorisation",
+      "description": "check_transporter_authorisation via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_driver_competence_certificate",
+      "name": "Check Driver Competence Certificate",
+      "description": "check_driver_competence_certificate via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_vehicle_approval_livestock",
+      "name": "Check Vehicle Approval Livestock",
+      "description": "check_vehicle_approval_livestock via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_loading_density_species",
+      "name": "Check Loading Density Species",
+      "description": "check_loading_density_species via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_rest_water_feed_journey",
+      "name": "Check Rest Water Feed Journey",
+      "description": "check_rest_water_feed_journey via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_apha_inspection_pack",
+      "name": "Prepare Apha Inspection Pack",
+      "description": "prepare_apha_inspection_pack via meok-livestock-welfare-transport-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
