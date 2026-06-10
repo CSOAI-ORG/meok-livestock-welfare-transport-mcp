@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-livestock-welfare-transport-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-livestock-welfare-transport-mcp"
+      ]
+    }
+  }
+}
