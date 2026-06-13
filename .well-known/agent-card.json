@@ -1,0 +1,144 @@
+{
+  "name": "Meok Livestock Welfare Transport Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-livestock-welfare-transport-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK + EU animal welfare in transport compliance for livestock hauliers. EU REG 1/2005 long journey logs, Type 1 vs Type 2 transporter authorisation, driver Certificate of Competence, species-specific vehicle approval + loading density, rest/water/feed cadence, APHA roadside inspection pack with Brexit divergence. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_journey_log_long_journey",
+      "name": "Check Journey Log Long Journey",
+      "description": "Check Journey Log Long Journey — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_transporter_authorisation",
+      "name": "Check Transporter Authorisation",
+      "description": "Check Transporter Authorisation — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_driver_competence_certificate",
+      "name": "Check Driver Competence Certificate",
+      "description": "Check Driver Competence Certificate — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_vehicle_approval_livestock",
+      "name": "Check Vehicle Approval Livestock",
+      "description": "Check Vehicle Approval Livestock — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_loading_density_species",
+      "name": "Check Loading Density Species",
+      "description": "Check Loading Density Species — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_rest_water_feed_journey",
+      "name": "Check Rest Water Feed Journey",
+      "description": "Check Rest Water Feed Journey — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_apha_inspection_pack",
+      "name": "Prepare Apha Inspection Pack",
+      "description": "Prepare Apha Inspection Pack — a tool of the meok-livestock-welfare-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-livestock-welfare-transport-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
