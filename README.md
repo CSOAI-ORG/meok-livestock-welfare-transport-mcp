@@ -35,12 +35,11 @@ pip install meok-livestock-welfare-transport-mcp
 | `check_rest_water_feed_journey` | Drive/rest cadence + temperature welfare range |
 | `prepare_apha_inspection_pack` | APHA roadside prep + 1 Dec 2024 UK Brexit divergence flags |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £79/mo (1 operator, basic checks)
-- **Pro** — £249/mo (multi-vehicle, journey logs, APHA pack)
-- **Fleet** — £999/mo (>50 vehicles, multi-species, SSO, abattoir API)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
+
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
@@ -55,7 +54,6 @@ pip install meok-livestock-welfare-transport-mcp
 
 ## Buy Pro
 
-Pro tier (£249/mo) and Fleet (£999/mo): <https://www.csoai.org/checkout>
 
 
 ## Configuration
